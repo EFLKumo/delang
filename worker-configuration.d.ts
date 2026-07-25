@@ -3,7 +3,7 @@
 // Runtime types generated with workerd@1.20260708.1 2025-05-01 nodejs_compat
 interface __BaseEnv_Env {
 	ASSETS: Fetcher;
-	GEMINI_MODEL: "gemini-3.1-flash-lite";
+	GEMINI_MODEL: "gemini-3.5-flash-lite";
 	GEMINI_API_KEY: string;
 }
 declare namespace Cloudflare {

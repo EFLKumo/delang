@@ -11,7 +11,7 @@ async function loadDefuddle() {
   return mod.Defuddle;
 }
 
-const GEMINI_MODEL = env.GEMINI_MODEL ?? "gemini-3.1-flash-lite";
+const GEMINI_MODEL = env.GEMINI_MODEL ?? "gemini-3.5-flash-lite";
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 export type Route =

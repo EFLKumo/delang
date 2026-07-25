@@ -3,7 +3,7 @@ import type { DelangResult } from "../../worker/index";
 
 export function ResultView({ data }: { data: DelangResult }) {
   return (
-    <div className="typeset typeset-docs max-w-2xl mx-auto my-8">
+    <div className="typeset typeset-docs max-w-2xl mx-auto my-8 px-4">
       <Streamup>{data.markdown}</Streamup>
       <hr />
       <footer>
